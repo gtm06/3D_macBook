@@ -6,9 +6,9 @@ import Mac from './Mac';
 
 const App = () => {
   return (
-    <Canvas camera={{ fov: 12, position: [0, -10, 220]}}>
+    <Canvas camera={{ fov: 12, position: [0, -5, 220]}}>
       {/* <OrbitControls /> */}
-      <Environment files={["https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/studio_small_09_2k.hdr",]}/>
+      <Environment files={["https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/blue_photo_studio_2k.hdr",]}/>
       <ScrollControls pages={3}>
       <Mac />
       </ScrollControls>

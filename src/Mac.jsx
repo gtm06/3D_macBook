@@ -20,7 +20,7 @@ meshes.matte.material.roughness = 1;
 let data = useScroll();
 
 useFrame((state, delta) => {
-    meshes.screen.rotation.x = THREE.MathUtils.degToRad(180 -data.offset * 90)
+    meshes.screen.rotation.x = THREE.MathUtils.degToRad(180 -data.offset * 110)
 })
   return (
     <group position={[0, -10, 20]}>
