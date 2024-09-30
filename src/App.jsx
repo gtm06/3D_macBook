@@ -1,6 +1,6 @@
 import { Canvas } from '@react-three/fiber'
 import React from 'react'
-import "./style.css";
+import "/style.css";
 import { Environment, OrbitControls, ScrollControls} from '@react-three/drei';
 import Mac from './Mac';
 
